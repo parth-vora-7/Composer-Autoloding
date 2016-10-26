@@ -1,0 +1,21 @@
+{
+    "name": "iadmin/compo",
+    "description": "My first package",
+    "authors": [
+        {
+            "name": "parthvora",
+            "email": "parth.vora.777@gmail.com"
+        }
+    ],
+    "require": {
+
+    },
+    "autoload": {
+        "classmap": [
+            "vendor/package1/"
+        ],
+        "psr-4": {
+            "package2\\":"vendor/package2/"
+        }
+    }
+}
